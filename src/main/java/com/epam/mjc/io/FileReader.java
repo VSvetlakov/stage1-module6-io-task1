@@ -42,7 +42,7 @@ public class FileReader {
             profile = new Profile(name,age,email,phone);
 
         } catch (IOException e) {
-            throw new RuntimeException("Error while reading file",e.getCause());
+            System.out.println("Error while reading file");
         }
 
         return profile;
