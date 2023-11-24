@@ -9,7 +9,7 @@ public class FileReader {
 
     public Profile getDataFromFile(File file) {
 
-        Profile profile;
+        Profile profile = null;
 
         try (BufferedReader bufferedReader = new BufferedReader(new java.io.FileReader(file))){
 
